@@ -4,18 +4,20 @@
 | :--- | :--- |
 | 產品線名稱 | 雲遊伴行／WanderCompanion（`wonderland-virtual-senior-travel-app`） |
 | 產品線編號 | [待確認] 10 條產品線中的編號尚未提供。PMO ID：`C3-WC-VST-F`；預售倉 `C2-WC-VST`（`wonderland-virtual-senior-travel-presale`） |
-| 所屬法人 | 事業體 Wonderland.center／水月道場（domain：`wonderland.center`；PMO Corporate 節點 `C1-WC-CORP`）。**正式法人名稱（公司登記名稱）與營利／非營利性質 [待確認]** |
+| 所屬法人 | 事業體 水月道場 / Wonderland Center（domain：`wonderland.center`；PMO Corporate 節點 `C1-WC-CORP`）。**正式法人名稱（公司登記名稱）與營利／非營利性質 [待確認]** |
 | 產出日期 | 2026-11-09（Asia/Taipei） |
-| 版本 | 草稿 v0.1 |
+| 版本 | 草稿 v0.2 |
 | 任務目標 | [假設] 同時更新 README 與產出預售說詞（使用者僅附上檔案，未另行指定範圍） |
 | 核心事實錨點 | 本次未另附獨立錨點。下文事實均摘自使用者提供之既有 README，**尚未升級為已確認錨點** |
+
+v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.center）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
 
 ---
 
 ## 1. 輸入確認
 
 - **產品線名稱／代號**：雲遊伴行／WanderCompanion；功能倉 `wonderland-virtual-senior-travel-app`（`C3-WC-VST-F`）；GitHub 組織 `wonderland-center`
-- **所屬法人**：README 寫明 Wonderland.center（`C1-WC-CORP`）承擔面向大眾（B2C）的心靈撫慰、生死關懷與公益資源動員樞紐；本倉為其功能實作端；文件「審定隸屬：Wonderland.center PMO 治理委員會」。
+- **所屬法人**：README 寫明 Wonderland Center（`C1-WC-CORP`）承擔面向大眾（B2C）的心靈撫慰、生死關懷與公益資源動員樞紐；本倉為其功能實作端；文件「審定隸屬：Wonderland Center PMO 治理委員會」。
 - **共用平台依賴（協作，不改變歸屬）**：志工點數回傳 `platform-resource-points-conversion`（`C3-SH-RPC`）；在地阿米巴陪伴單元 `platform-amoeba-unit-template`（`C3-SH-AMT`）。`SH` 代碼的擁有事業體 [待確認]。
 - **既有文件**：WanderCompanion README v1.0.0（生態定位、雙軌協同、功能矩陣、架構、目錄、無障礙規格、資安與個資、Getting Started、7 道 QA 閘門、治理與信箱）
 - **對應預售倉**：`wonderland-virtual-senior-travel-presale`（`C2-WC-VST`）：倡議官網、志工召募、設備認領、預售及家屬預約、硬體租賃、大眾募資
@@ -48,7 +50,7 @@
 - **數字**：Gate 4 連動延遲 ≤ 500 ms、Gate 6 真人接管 ≤ 2 秒、Gate 7 連線中斷率 < 0.5%——工程驗收門檻，**不得作為對外 SLA**；尤其「2 秒內真人接管」不可對外承諾 [待確認]。
 - **志工量能**：一鍵求助依賴「遠端志工」線上值守；服務時段與志工人數 [待確認]。
 - **語言**：台語、客語、粵語、國語及「多國語言」；多國語言範圍 [待確認]。
-- **非營利 vs. 預售**：Wonderland 定位為公益資源動員，但預售倉含「預售、家屬預約、硬體租賃、大眾募資」。收費模式 [待確認]。
+- **非營利 vs. 預售**：Wonderland Center 定位為公益資源動員，但預售倉含「預售、家屬預約、硬體租賃、大眾募資」。收費模式 [待確認]。
 - **「為行動不便之長者重構探索世界的生命體驗」**：程度語，對外收斂。
 
 ### 目前缺失的關鍵資訊
@@ -64,7 +66,7 @@
 
 ## 3. 產品概述
 
-雲遊伴行（WanderCompanion）是 Wonderland.center（水月道場）規劃中的高齡長者虛擬旅遊陪伴服務。行動不便的長者透過 XR 或 360° 場景「出遊」，由會說台語、客語、粵語、國語等語言、且會放慢語速的 AI 導遊依長者的生命經歷與體力安排行程，必要時拿長者小時候看過的舊車站之類的地方做對照解說；旅程結束後整理成附語音祝福的「數位漫遊手札」，同步給家屬。外地子女也可以用手機或平板加入同一個景點同遊。
+雲遊伴行（WanderCompanion）是 水月道場 / Wonderland Center規劃中的高齡長者虛擬旅遊陪伴服務。行動不便的長者透過 XR 或 360° 場景「出遊」，由會說台語、客語、粵語、國語等語言、且會放慢語速的 AI 導遊依長者的生命經歷與體力安排行程，必要時拿長者小時候看過的舊車站之類的地方做對照解說；旅程結束後整理成附語音祝福的「數位漫遊手札」，同步給家屬。外地子女也可以用手機或平板加入同一個景點同遊。
 
 服務的核心是分工：AI 負責內容與規模化，真人志工負責情感與安全。長者按下求助或系統偵測到疲勞時，AI 導遊會退居靜音，由遠端志工以視訊接手；生命故事傾聽、敏感回憶、設備教學與家屬溝通也都由真人負責。穿戴裝置的訊號只用來調整旅程節奏，**不作醫療診斷，本產品也不是醫療器材**。
 
@@ -123,7 +125,7 @@ README 定位為 B2C，並由預售倉處理家屬預約與硬體租賃。以下
 
 ## 6. 差異化定位
 
-**同法人（Wonderland.center）相鄰產品**
+**同法人（Wonderland Center）相鄰產品**
 
 - **vs. 選擇預演（ChoiceRehearsal）**：兩者都服務高齡族群並有真人介入，但雲遊伴行是**休閒與陪伴**的虛擬旅遊；選擇預演是安寧緩和醫療意願的**教育與決策輔助**。雲遊伴行的生理感測只調節旅程節奏，不涉及醫療決策。
 - **vs. 數位回聲（Digital Echo）**：數位回聲重現已故者；雲遊伴行陪伴在世長者，AI 導遊是導覽角色，不模仿任何真實人物 [待確認]。志工可標記「逝親場景」為情感禁區，與數位回聲的方向相反，兩者不應交叉推銷 [假設]。
@@ -132,7 +134,7 @@ README 定位為 B2C，並由預售倉處理家屬預約與硬體租賃。以下
 
 - **vs. VeilProof 隱證、AllView FHE Social**：無功能重疊；VeilProof 的「沙盤／視覺化」與本產品 XR 場景用途完全不同。
 - **vs. AEGIS 產品**：無功能重疊。
-- **共用平台**：`platform-resource-points-conversion`、`platform-amoeba-unit-template` 為協作依賴，不改變本產品歸屬 Wonderland.center。
+- **共用平台**：`platform-resource-points-conversion`、`platform-amoeba-unit-template` 為協作依賴，不改變本產品歸屬 Wonderland Center。
 
 **相對於一般 VR 旅遊內容**：差異在長者專屬的語速、方言、防暈眩與高對比設計，疲勞感知自動休息，以及真人志工可隨時接手與家人同遊。
 
@@ -190,7 +192,7 @@ A：本次未提供方案、價格與服務區域，暫不對外陳述。
 # 雲遊伴行／WanderCompanion
 
 > **PMO ID**：`C3-WC-VST-F`（`wonderland-virtual-senior-travel-app`）｜預售倉 `C2-WC-VST`（`wonderland-virtual-senior-travel-presale`）  
-> **所屬法人／事業體**：Wonderland.center／水月道場（`wonderland.center`；PMO `C1-WC-CORP`）｜正式公司登記名稱 [待確認]  
+> **所屬法人／事業體**：水月道場 / Wonderland Center（`wonderland.center`；PMO `C1-WC-CORP`）｜正式公司登記名稱 [待確認]  
 > **文件狀態**：草稿，待人工審核
 
 > **非醫療聲明**：本系統之穿戴感知僅用於動態調節體驗節奏，不提供醫療診斷，亦非醫療器材。
@@ -311,4 +313,4 @@ A：本次未提供方案、價格與服務區域，暫不對外陳述。
 3. **生理數據流向**：本地抽象化 vs. 雲端「匿名生理指標」與志工「即時生理數值看板」的矛盾；實際上傳哪些資料。
 4. **真人量能與安全責任**：志工服務時段、人數、訓練與保險；「真人接管 ≤ 2 秒」僅為演練門檻，不對外承諾。
 5. **商業模式與共用平台**：B2C 公益 vs. 預售／硬體租賃／募資的收費方式；XR 設備規格；`C3-SH-*` 平台所屬事業體。
-6. **本文件狀態**：草稿 v0.1，**尚未最終確認**。
+6. **本文件狀態**：草稿 v0.2，**尚未最終確認**。
