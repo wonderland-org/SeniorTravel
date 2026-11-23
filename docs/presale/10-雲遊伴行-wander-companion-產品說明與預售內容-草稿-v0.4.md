@@ -4,7 +4,7 @@
 | :--- | :--- |
 | 產品線名稱 | 寰宇無界 SeniorTravel（預售產品代碼 `C2-WC-VST`）；來源文件的功能用語不另作對外產品命名 |
 | 產品線編號 | [待確認] 10 條產品線中的編號尚未提供。PMO ID：`C3-WC-VST-F`；預售倉 `C2-WC-VST`（t12u 確認）（`wonderland-virtual-senior-travel-presale`） |
-| 所屬法人 | 品牌 水月道場 / Wonderland Center（網域 `wonderland.center`；PMO `C1-WC-CORP`）；法人名稱 **水月道場有限合夥（WonderLand Center） [暫定]**，登記狀態、正式登記名稱與設立沿革 [待確認]；營利／非營利性質 [待確認] |
+| 所屬法人 | 品牌 水月道場 / Wonderland Center（網域 `wonderland.ngo`；PMO `C1-WC-CORP`）；法人名稱 **水月道場有限合夥（WonderLand Center） [暫定]**，登記狀態、正式登記名稱與設立沿革 [待確認]；營利／非營利性質 [待確認] |
 | 產出日期 | 2026-11-12（Asia/Taipei） |
 | 版本 | 草稿 v0.4 |
 | 任務目標 | 依 t12u 及使用者本次補充修訂相關事實、品牌文字與預售草稿；不延伸未確認之功能或法律主張 |
@@ -14,7 +14,7 @@ v0.4（2026-11-12，Asia/Taipei）：依 t14u 新增「代收預售款授權及�
 
 v0.3（2026-11-11，Asia/Taipei）：依 t12u 更新暫定法人名稱、三條產品命名、2027-02-15 交付期、標準個資政策方向及跨法人託管資料；保留登記／法務／託管安排待確認及草稿標註；品牌與網域確認不視為核准。
 
-v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.center）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
+v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.ngo）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
 
 ---
 
@@ -23,7 +23,7 @@ v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜
 來源文件用語對照：數位回聲／Digital Echo／Wonderland Digital Memory、選擇預演／ChoiceRehearsal、雲遊伴行／WanderCompanion 僅保留作來源功能描述；對外產品名稱依 t12u 為永恆記憶 EternalMemory、善終守護 AdvanceCare、寰宇無界 SeniorTravel。既有技術識別字與原始水印字串不因產品命名而自行變更；實際 README.md 僅於存在過時品牌文字時依使用者補充修字，不以本草稿建議版全文覆寫。
 
 - **產品線名稱／代號**：寰宇無界 SeniorTravel；功能倉 `wonderland-virtual-senior-travel-app`（`C3-WC-VST-F`）；GitHub 組織 `wonderland-center`；預售產品代碼 `C2-WC-VST`（t12u 確認）
-- **所屬法人**：品牌 水月道場 / Wonderland Center（網域 `wonderland.center`；PMO `C1-WC-CORP`）；法人名稱 **水月道場有限合夥（WonderLand Center） [暫定]**，登記狀態、正式登記名稱與設立沿革 [待確認]；營利／非營利性質 [待確認]。既有 README 的公益定位僅供參考，不構成法人已完成登記的證據。
+- **所屬法人**：品牌 水月道場 / Wonderland Center（網域 `wonderland.ngo`；PMO `C1-WC-CORP`）；法人名稱 **水月道場有限合夥（WonderLand Center） [暫定]**，登記狀態、正式登記名稱與設立沿革 [待確認]；營利／非營利性質 [待確認]。既有 README 的公益定位僅供參考，不構成法人已完成登記的證據。
 - **共用平台依賴（協作，不改變歸屬）**：志工點數回傳 `platform-resource-points-conversion`（`C3-SH-RPC`）；在地阿米巴陪伴單元 `platform-amoeba-unit-template`（`C3-SH-AMT`）。`SH` 代碼的擁有事業體 [待確認]。
 - **既有文件**：WanderCompanion README v1.0.0（生態定位、雙軌協同、功能矩陣、架構、目錄、無障礙規格、資安與個資、Getting Started、7 道 QA 閘門、治理與信箱）
 - **對應預售倉**：`wonderland-virtual-senior-travel-presale`（`C2-WC-VST`）：倡議官網、志工召募、設備認領、預售及家屬預約、硬體租賃、大眾募資
@@ -223,7 +223,7 @@ A：本次未提供方案、價格與服務區域，暫不對外陳述。
 # 寰宇無界 SeniorTravel
 
 > **PMO ID**：`C3-WC-VST-F`（`wonderland-virtual-senior-travel-app`）｜預售倉 `C2-WC-VST`（`wonderland-virtual-senior-travel-presale`）  
-> **所屬法人／事業體**：品牌 水月道場 / Wonderland Center（網域 `wonderland.center`；PMO `C1-WC-CORP`）；法人名稱 **水月道場有限合夥（WonderLand Center） [暫定]**，登記狀態、正式登記名稱與設立沿革 [待確認]；營利／非營利性質 [待確認]
+> **所屬法人／事業體**：品牌 水月道場 / Wonderland Center（網域 `wonderland.ngo`；PMO `C1-WC-CORP`）；法人名稱 **水月道場有限合夥（WonderLand Center） [暫定]**，登記狀態、正式登記名稱與設立沿革 [待確認]；營利／非營利性質 [待確認]
 > **文件狀態**：草稿，待人工審核
 
 > **非醫療聲明**：本系統之穿戴感知僅用於動態調節體驗節奏，不提供醫療診斷，亦非醫療器材。
@@ -326,11 +326,11 @@ A：本次未提供方案、價格與服務區域，暫不對外陳述。
 
 ## 治理
 
-- Dev Lead：`dev-wonderland-virtual-senior-travel-app@wonderland.center`
-- Collaborator：`collab-wonderland-virtual-senior-travel-app@wonderland.center`
-- QA Lead：`qa-wonderland-virtual-senior-travel-app@wonderland.center`
-- Repo Admin：`admin-wonderland-virtual-senior-travel-app@wonderland.center`
-- 全域安全通報：`github-security@wonderland.center`（[待確認] 是否為正式對外窗口）
+- Dev Lead：`dev-wonderland-virtual-senior-travel-app@wonderland.ngo`
+- Collaborator：`collab-wonderland-virtual-senior-travel-app@wonderland.ngo`
+- QA Lead：`qa-wonderland-virtual-senior-travel-app@wonderland.ngo`
+- Repo Admin：`admin-wonderland-virtual-senior-travel-app@wonderland.ngo`
+- 全域安全通報：`github-security@wonderland.ngo`（[待確認] 是否為正式對外窗口）
 
 分支保護：`main` 禁止直接推送；PR 需 Dev Lead 與 QA Lead 核准；合併須附 Gate 6 緊急中斷演練成功日誌。
 ```
